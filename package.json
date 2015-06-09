@@ -1,5 +1,5 @@
 {
-  "name": "@vinli/eslint-config-shared",
+  "name": "eslint-config-vinli",
   "version": "1.0.0",
   "description": "Vinli ESLint config",
   "main": "index.js",
