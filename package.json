@@ -1,0 +1,29 @@
+{
+  "name": "@vinli/eslint-config-shared",
+  "version": "1.0.0",
+  "description": "Vinli ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinli/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Kyle Turney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinli/eslint-config/issues"
+  },
+  "homepage": "https://github.com/vinli/eslint-config",
+  "dependencies": {
+    "lodash.merge": "^3.3.1"
+  },
+  "peerDependencies": {
+    "eslint": "^0.22.1"
+  }
+}
