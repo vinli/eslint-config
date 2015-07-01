@@ -113,7 +113,7 @@ module.exports = {
     'key-spacing': [ 2, { beforeColon: false, afterColon: true } ],
     'max-depth': [ 1, 4 ],
     'max-len': [ 1, 120 ],
-    'max-nested-callbacks': [ 1, 5 ],
+    'max-nested-callbacks': 0,
     'max-params': [ 1, 4 ],
     'max-statements': [ 0, 10 ],
     'new-cap': 2,
