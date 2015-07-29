@@ -73,7 +73,7 @@ module.exports = {
     'no-shadow': 2,
     'no-shadow-restricted-names': 2,
     'no-space-before-semi': 2,
-    'no-spaced-func': 2,
+    'no-spaced-func': 0,
     'no-sparse-arrays': 2,
     'no-sync': 2,
     'no-ternary': 0,
