@@ -12,5 +12,17 @@ module.exports = merge({}, require('./index'), {
   globals: {
     'Promise': false,
     'console': true
+  },
+
+  rules: {
+    'callback-return': 2,
+    'handle-callback-err': 2,
+    'no-console': 0,
+    'no-mixed-requires': 2,
+    'no-new-require': 2,
+    'no-path-concat': 2,
+    'no-process-exit': 2,
+    'no-restricted-modules': 0,
+    'no-sync': 2
   }
 });
