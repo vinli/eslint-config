@@ -23,7 +23,7 @@ module.exports = {
     'guard-for-in': 0,
     'id-length': 0,
     'id-match': 0,
-    'indent': [ 2, 2 ],
+    'indent': [ 2, 2, { SwitchCase: 1 } ],
     'init-declarations': [ 0, 'always' ],
     'key-spacing': [ 2, { beforeColon: false, afterColon: true } ],
     'linebreak-style': [ 2, 'unix' ],
