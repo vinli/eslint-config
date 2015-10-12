@@ -6,7 +6,8 @@ module.exports = merge({}, require('./index'), {
     'node': true,
     'amd': false,
     'mocha': true,
-    'jasmine': false
+    'jasmine': false,
+    'es6': true
   },
 
   globals: {
