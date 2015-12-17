@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vinli",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Vinli ESLint config",
   "main": "index.js",
   "scripts": {
