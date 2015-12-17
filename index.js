@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    es6: true
+  },
+
   rules: {
     // possible errors
     'comma-dangle': [ 2, 'never' ],
