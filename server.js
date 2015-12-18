@@ -19,6 +19,7 @@ module.exports = merge({}, require('./index'), {
     'no-console': 0,
 
     // Node.js and CommonJS
+    'arrow-body-style': 0,
     'callback-return': 2,
     'global-require': 0,
     'handle-callback-err': 2,
