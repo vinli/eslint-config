@@ -24,7 +24,7 @@
     "lodash.merge": "^3.3.2"
   },
   "peerDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-plugin-mocha": "^1.1.0"
+    "eslint": "^2.1.0",
+    "eslint-plugin-mocha": "^2.0.0"
   }
 }
