@@ -186,7 +186,7 @@ module.exports = {
     'no-var': 2,
     'object-shorthand': [ 2, 'methods' ],
     'prefer-arrow-callback': 2,
-    'prefer-const': 2,
+    'prefer-const': [ 2, { ignoreReadBeforeAssign: true } ],
     'prefer-reflect': 0,
     'prefer-spread': 0,
     'prefer-template': 2,
