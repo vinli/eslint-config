@@ -159,7 +159,7 @@ module.exports = {
     'operator-linebreak': [ 1, 'before' ],
     'padded-blocks': [ 2, 'never' ],
     'quote-props': [ 2, 'as-needed' ],
-    'quotes': [ 2, 'single' ],
+    'quotes': [ 2, 'single', { avoidEscape: true } ],
     'require-jsdoc': 0,
     'semi-spacing': 2,
     'semi': 2,
@@ -190,6 +190,6 @@ module.exports = {
     'prefer-reflect': 0,
     'prefer-spread': 0,
     'prefer-template': 2,
-    'require-yield': 2,
+    'require-yield': 2
   }
 };
