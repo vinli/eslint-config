@@ -7,7 +7,7 @@ module.exports = {
     // possible errors
     'comma-dangle': [ 2, 'never' ],
     'no-cond-assign': [ 2, 'always' ],
-    'no-console': 1,
+    'no-console': [ 2, { allow: [ "info", "warn", "error" ] } ],
     'no-constant-condition': 2, // Edge case -> put comment,
     'no-control-regex': 1,
     'no-debugger': 1,
