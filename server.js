@@ -16,7 +16,7 @@ module.exports = merge({}, require('./index'), {
 
   rules: {
     // possible errors
-    'no-console': 0,
+    'no-console': [ 2, { allow: [ "info", "warn", "error"] } ],
 
     // Node.js and CommonJS
     'object-shorthand': 0,
