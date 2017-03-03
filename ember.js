@@ -18,6 +18,17 @@ module.exports = merge({}, require('./index'), {
   rules: {
     'ember/named-functions-in-promises': 0,
     'ember/no-empty-attrs': 0,
+    'ember/order-in-components' : [2, {
+      order: [
+        'service',
+        'property',
+        'single-line-function',
+        'multi-line-function',
+        'lifecycle-hook',
+        'method',
+        'actions',
+      ]
+    }
   },
 
   parserOptions: {
