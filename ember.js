@@ -22,6 +22,9 @@ module.exports = merge({}, require('./index'), {
 
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: 2 
+    }
   }
 });
