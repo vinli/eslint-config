@@ -28,7 +28,7 @@ module.exports = merge({}, require('./index'), {
         'method',
         'actions',
       ]
-    }
+    }]
   },
 
   parserOptions: {
