@@ -21,6 +21,17 @@ module.exports = {
     'mocha/no-nested-tests': 2,
     'no-unused-expressions': 0, // fix chai property assertions at the end of the chain
     'prefer-arrow-callback': 0, // rule conflicts with mocha function style
-    'ember/use-ember-get-and-set': 0 // this breaks tests
+    'ember/use-ember-get-and-set': 0, // this breaks tests
+    'ember/order-in-components' : [2, {
+      order: [
+        'service',
+        'property',
+        'single-line-function',
+        'multi-line-function',
+        'lifecycle-hook',
+        'method',
+        'actions',
+      ]
+    }]
   }
 }
