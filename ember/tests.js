@@ -22,7 +22,7 @@ module.exports = {
     'no-unused-expressions': 0, // fix chai property assertions at the end of the chain
     'prefer-arrow-callback': 0, // rule conflicts with mocha function style
     'ember/use-ember-get-and-set': 0, // this breaks tests
-    'ember/order-in-components' : [2, {
+    'ember/order-in-controllers' : [2, {
       order: [
         'service',
         'property',
