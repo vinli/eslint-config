@@ -21,12 +21,11 @@
   },
   "homepage": "https://github.com/vinli/eslint-config",
   "dependencies": {
-    "lodash.merge": "^3.3.2"
-  },
-  "peerDependencies": {
-    "eslint": "^3.3.1",
     "eslint-plugin-ember": "^3.0.1",
     "eslint-plugin-ember-best-practices": "^0.4.0",
     "eslint-plugin-mocha": ">3"
+  },
+  "peerDependencies": {
+    "eslint": "^3.3.1"
   }
 }
