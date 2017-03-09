@@ -1,3 +1,6 @@
+/* eslint-env node */
+/* eslint quotes: [ 2, "single" ] */
+
 module.exports = {
   env: {
     'browser': false,
@@ -13,9 +16,6 @@ module.exports = {
   },
 
   rules: {
-    // possible errors
-    'no-console': [ 2, { allow: [ "info", "warn", "error"] } ],
-
     // Node.js and CommonJS
     'object-shorthand': 0,
     'arrow-body-style': 0,

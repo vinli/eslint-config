@@ -3,8 +3,6 @@
 
 module.exports = {
   extends: [
-    './rules/base',
-    './rules/server',
     './rules/server-tests'
   ]
 };
