@@ -3,6 +3,6 @@
 
 module.exports = {
   extends: [
-    './rules/server-tests'
+    'vinli/rules/server-tests'
   ]
 };
