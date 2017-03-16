@@ -7,8 +7,7 @@ module.exports = {
   },
 
   extends: [
-    'plugin:ember/base',
-    'plugin:ember-best-practices/recommended'
+    'plugin:ember/base'
   ],
 
   globals: {
@@ -25,9 +24,11 @@ module.exports = {
   },
 
   rules: {
+    'func-style': 0,
+
     'ember/named-functions-in-promises': 0,
     'ember/no-empty-attrs': 0,
-    'ember/order-in-controllers': [2, {
+    'ember/order-in-components': [2, {
       order: [
         'service',
         'property',
@@ -38,7 +39,7 @@ module.exports = {
         'actions'
       ]
     }],
-    'ember/order-in-components': [2, {
+    'ember/order-in-controllers': [2, {
       order: [
         'service',
         'property',
@@ -58,6 +59,7 @@ module.exports = {
         'method',
         'actions'
       ]
-    }]
+    }],
+    'ember/use-ember-get-and-set': 2
   }
 };

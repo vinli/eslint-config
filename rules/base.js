@@ -166,7 +166,7 @@ module.exports = {
     'require-jsdoc': 0,
     'semi-spacing': 2,
     'semi': 2,
-    'sort-vars': [ 2, { 'ignoreCase' : true } ],
+    'sort-vars': [ 2, { 'ignoreCase': true } ],
     'space-before-blocks': 2,
     'space-before-function-paren': [ 2, 'never' ],
     'space-in-parens': 2,
@@ -176,11 +176,11 @@ module.exports = {
     'wrap-regex': 0,
 
     // ECMAScript 6
-    'arrow-body-style': [ 2, 'as-needed' ],
+    'arrow-body-style': 0,
     'arrow-parens': [ 2, 'always' ],
     'arrow-spacing': [ 2, { before: true, after: true } ],
     'constructor-super': 2,
-    'generator-star-spacing': 2,
+    'generator-star-spacing': [ 2, { before: true, after: true } ],
     'no-class-assign': 2,
     'no-const-assign': 2,
     'no-confusing-arrow': 0,
