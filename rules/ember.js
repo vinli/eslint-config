@@ -42,10 +42,11 @@ module.exports = {
     'ember/order-in-controllers': [2, {
       order: [
         'service',
+        'query-params',
+        'inherited-property',
         'property',
         'single-line-function',
         'multi-line-function',
-        'lifecycle-hook',
         'method',
         'actions'
       ]
