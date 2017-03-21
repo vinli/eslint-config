@@ -51,6 +51,15 @@ module.exports = {
         'actions'
       ]
     }],
+    'ember/order-in-models': [2, {
+      order: [
+        'service',
+        'attribute',
+        'relationship',
+        'single-line-function',
+        'multi-line-function'
+      ]
+    }],
     'ember/order-in-routes': [2, {
       order: [
         'service',
